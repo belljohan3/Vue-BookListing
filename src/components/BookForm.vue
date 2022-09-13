@@ -18,14 +18,8 @@ export default {
         }
     },
     methods: {
-        bookSubmit (booktitle, bookTitle){
+        bookSubmit (bookTitle, bookAuthor){
             this.$emit('addBook', bookTitle, bookAuthor);
-        },
-        bookTitle () {
-
-        },
-        bookAuthor () {
-
         }
     },
 }
