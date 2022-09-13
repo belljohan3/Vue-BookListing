@@ -2,10 +2,11 @@
     <div>
         <h1>{{ title }}</h1>
         <ul>
-            <li v-for="book in books">Book Title: {{ books.title }}:{{ books.author}}</li>
+            <li v-for="book in books">Book Title: {{ book.title }}:{{ book.author}}</li>
         </ul>
     </div>
 </template>
+
 
 <script>
     export default {
@@ -22,6 +23,7 @@
         }
     }
 </script>
+
 
 <style>
     h1, h2 {
