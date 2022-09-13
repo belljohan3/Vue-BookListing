@@ -2,7 +2,7 @@
     <div>
         <h1>{{ title }}</h1>
         <ul>
-            <li>Book Title: {{ books.title }}, column, {{ books.author}}</li>
+            <li v-for="book in books">Book Title: {{ books.title }}:{{ books.author}}</li>
         </ul>
     </div>
 </template>
@@ -27,9 +27,11 @@
     h1, h2 {
         font-weight: normal;
     }
-    ul, li {
+    ul {
         list-style-type: none;
         padding: 0;
+    }
+    li { 
         display: block;
         margin: 0 10px;
     }
