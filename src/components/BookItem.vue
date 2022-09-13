@@ -1,8 +1,8 @@
 <template>
     <div>
-        <ul>
+        <!-- <ul> -->
             <li>{{book.title}}:{{book.author}}</li>
-        </ul>
+        <!-- </ul> -->
     </div>
 </template>
 <script>
@@ -19,10 +19,10 @@ export default {
     h1, h2 {
         font-weight: normal;
     }
-    ul {
+    /* ul {
         list-style-type: none;
         padding: 0;
-    }
+    } */
     li { 
         display: block;
         margin: 0 10px;

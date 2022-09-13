@@ -9,4 +9,32 @@ Total 5 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To https://github.com/belljohan3/Vue-BookListing
    ae22607..2f2c88a  master -> master
-bash-3.2$ 
+bash-3.2$ git push[4Pexit[2Plsnpm installls[Kexitgit push[Ksa[K[Kadd .
+bash-3.2$ git commit -m ""h"1"," "h"2" "{"
+[master 6e8860c] h1, h2 {
+ 2 files changed, 25 insertions(+), 3 deletions(-)
+ create mode 100644 typescript
+bash-3.2$         font-weight: normal;
+bash: font-weight:: command not found
+bash-3.2$     }
+bash: syntax error near unexpected token `}'
+bash-3.2$     ul {
+ul: {: No such file or directory
+bash-3.2$         list-style-type: none;
+bash: list-style-type:: command not found
+bash-3.2$         padding: 0;
+bash: padding:: command not found
+bash-3.2$     }
+bash: syntax error near unexpected token `}'
+bash-3.2$     li { 
+bash: li: command not found
+bash-3.2$         display: block;
+bash: display:: command not found
+bash-3.2$         margin: 0 10px;
+bash: margin:: command not found
+bash-3.2$     }ei[K[Kexit
+bash: }exit: command not found
+bash-3.2$ exit
+exit
+
+Script done on Tue Sep 13 19:33:14 2022
