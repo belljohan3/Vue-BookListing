@@ -3,6 +3,7 @@
         <h1>{{ title }}</h1>
         <ul>
             <book-item v-for="book in books" :book="book"></book-item>
+            <book-form @addBook="appendBook"></book-form>
         </ul>
     </div>
 </template>
@@ -10,13 +11,15 @@
 
 <script>
     import BookItem from './BookItem';
+    import BookForm from "./BookForm.vue";
     export default {
         name: "BookList",
         data () {
             return {
                 title: 'All Books',
                 components: {
-                    BookItem
+                    BookItem,
+                    BookForm
                 },
                 books: [
                     {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
@@ -24,7 +27,12 @@
                     {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
                 ]
             }
-        }
+        },
+        methods: {
+            appendBook(bookTitle, bookAuthor) {
+                this.books.push({ title: bookTitle, author: bookAuthor })
+            }
+        },
     }
 </script>
 
