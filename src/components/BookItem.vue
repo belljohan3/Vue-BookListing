@@ -1,10 +1,11 @@
 <template>
     <div>
-        <!-- <ul> -->
-            <li>{{book.title}}:{{book.author}}</li>
-        <!-- </ul> -->
+        <ul>
+            <li>{{ book.title }}:{{ book.author }}</li>
+        </ul>
     </div>
 </template>
+
 <script>
 export default {
     data() {
@@ -15,14 +16,12 @@ export default {
     },
 }
 </script>
+
 <style>
-    h1, h2 {
-        font-weight: normal;
-    }
-    /* ul {
+    ul {
         list-style-type: none;
         padding: 0;
-    } */
+    }
     li { 
         display: block;
         margin: 0 10px;
